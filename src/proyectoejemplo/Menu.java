@@ -7,9 +7,9 @@ public class Menu {
     int opt=0;
     Scanner in=new Scanner(System.in);
 		
-		
     do{
-	System.out.println("Ingresar Opcion");
+	
+    System.out.println("Ingresar Opcion");
 	System.out.println("1.-");
 	System.out.println("2.-");
 	System.out.println("3.-");
