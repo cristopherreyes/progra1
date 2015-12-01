@@ -18,7 +18,7 @@ public class conexion {
     public conexion() {
         try {
             Class.forName("org.gjt.mm.mysql.Driver");
-            con = DriverManager.getConnection(url, usuario, clave);
+            con = DriverManager.getConnection(url,usuario,clave);
         } catch (Exception ex) {
             System.out.println("ERROR:" + ex.getMessage());
         }
