@@ -8,14 +8,14 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 
-public class Conexion {
+public class conexion {
     Connection con;
     Statement stmt;
     ResultSet rs;
     String usuario = "root";
     String clave = "";
     String url = "jdbc:mysql://localhost:3306/test01";
-    public Conexion() {
+    public conexion() {
         try {
             Class.forName("org.gjt.mm.mysql.Driver");
             con = DriverManager.getConnection(url, usuario, clave);
